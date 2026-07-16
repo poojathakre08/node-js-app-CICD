@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        SERVER_IP      = '172.31.92.104'
-        SSH_CREDENTIAL = 'node-pipeline-key'
+        SERVER_IP      = '172.31.28.101'
+        SSH_CREDENTIAL = 'node-pipeline-key-cicd'
         REPO_URL       = 'https://github.com/poojathakre08/node-js-app-CICD.git'
         BRANCH         = 'main'
         REMOTE_USER    = 'ubuntu'
